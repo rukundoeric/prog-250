@@ -1,0 +1,30 @@
+module.exports = {
+  up: queryInterface => queryInterface.bulkInsert('Users', [{
+    firstName: 'Mireille',
+    lastName: 'Niwemuhuza',
+    username: 'mifeille',
+    email: 'nimilleer@gmail.com',
+    password: 'Mireille1!',
+    bio: '',
+    avatar: '',
+    dateOfBirth: '12/12/2000',
+    gender: '',
+    verified: false,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  }, {
+    firstName: 'eric',
+    lastName: 'rukundo',
+    username: 'ericrundo',
+    email: 'hhhhhhhhhhhhhh3h3hh3@gmail.com',
+    password: 'eric123',
+    bio: 'nan',
+    avatar: '',
+    dateOfBirth: new Date(),
+    gender: 'male',
+    verified: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  }
+  ], {}),
+};
